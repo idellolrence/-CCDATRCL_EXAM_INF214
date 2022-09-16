@@ -81,9 +81,8 @@ public class Main {
         System.out.println("My Surname is: " +surname);
     
         // 3. Add a "INF214" to the stack.
-        surname.push("INF214");
+        //surname.push("INF214");
         
-        /*
         surname.push(" ");
         surname.push("I");
         surname.push("N");
@@ -91,25 +90,23 @@ public class Main {
         surname.push("2");
         surname.push("1");
         surname.push("4");
-        */
+        
     
         // 4. Print the Stack.
         System.out.println("My Surname and Section is: " +surname);
     
         // 5. Remove "INF214".
         surname.pop();
-        /*
         surname.pop();
         surname.pop();
         surname.pop();
         surname.pop();
         surname.pop();
-        */
+        
     
         // 6. Add "CCDATRCL-INF214".
-        surname.push("CCDATRCL-INF214");
-        
-        /*
+        //surname.push("CCDATRCL-INF214");
+       
         surname.push("C");
         surname.push("C");
         surname.push("D");
@@ -125,7 +122,6 @@ public class Main {
         surname.push("2");
         surname.push("1");
         surname.push("4");
-        */
     
         // 7. Print the Stack.
         System.out.println("My Surname and Class is: " +surname);
